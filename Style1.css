@@ -1,0 +1,113 @@
+body {
+    font-family: 'Calibri';
+    background: rgb(255, 200, 117);
+}
+
+h1 {
+
+    color: rgb(190, 0, 0);
+    text-align: center;
+}
+
+ul.top_menu {
+    text-align: center;
+}
+
+.top_menu li {
+    display: inline-block; /*for arrange in a row*/
+    margin-right: 120px; /*for space between the links*/
+}
+
+.top_menu a {
+    color: rgb(114, 0, 0); /*links color*/
+}
+
+#first_section {
+    background: #be3c3c;
+}
+
+#second_section {
+    background: #bf4d4d;
+}
+
+#third_section {
+    background: #c36e6e;
+}
+
+#fourth_section {
+    background:#c58c8c;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 15px;
+    margin: 20px; 
+    text-align: center; 
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_style {
+    object-position: right;
+    height: 140px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto 16px; /*as asked for in 2*/
+    margin-left: 16px; /*as asked for in 2*/
+    margin-right: 16px; /*for a space betweem the photo and the text*/
+}
+
+div {
+    margin-top: 16px; /*minimum gap between image and div*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #ea5656;
+    margin: 8px;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card p {
+    padding: 0.5px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+footer {
+    background-image: url(/Images/Seed-Pomegranate.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+
