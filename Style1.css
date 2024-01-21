@@ -98,7 +98,7 @@ div {
 }
 
 footer {
-    background-image: url(/Images/Seed-Pomegranate.jpg);
+    background-image: url(./Images/Seed-Pomegranate.jpg);
     background-size: cover;
     background-position: center;
     padding: 25px;
